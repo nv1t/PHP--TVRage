@@ -9,8 +9,9 @@
 	 **/
 
 	//Include our files and we're done!
-	require 'TVRAGE/TVRAGE.class.php';
-	require 'TVRAGE/TV_Show.class.php';
-	require 'TVRAGE/TV_Shows.class.php';
-	require 'TVRAGE/TV_Episode.class.php';
+	require 'TVRage/TVRage.class.php';
+	require 'TVRage/TV_Show.class.php';
+	require 'TVRage/TV_Shows.class.php';
+	require 'TVRage/TV_Episode.class.php';
+    require 'TVRage/TV_Schedule.class.php';
 ?>

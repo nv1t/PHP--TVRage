@@ -74,6 +74,13 @@
 					$data = self::fetchData($url);
 					return $data;
 				break;
+                
+                case 'get_schedule':
+                    $country = $params['country'];
+                    $url = self::apiUrl."fullschedule.php?country=$country";
+                    $data = self::fetchData($url);
+                    return $data;
+                break;
 
 				default:
 					return false;
